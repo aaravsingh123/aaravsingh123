@@ -2,7 +2,7 @@
 - 👀 I’m interested in python develompeent of all kinds 
 - 🌱 I’m currently learning python basics
 - 💞️ I’m looking to collaborate on simple python projects fro beginners 
-- 📫 How to reach me my email is 2019532aarav@dpssnoidaa.co.in
+- 📫 How to reach me my email is codinglearner15@gmail.com
 
 <!---
 aaravsingh123/aaravsingh123 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
