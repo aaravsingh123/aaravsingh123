@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEET 2027 Countdown</title>
+    <meta
+      name="description"
+      content="Live countdown to the NEET 2027 exam with real-time date updates."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page">
+      <div class="aurora aurora-one"></div>
+      <div class="aurora aurora-two"></div>
+      <section class="countdown-card" aria-live="polite">
+        <p class="badge">NTA NEET UG</p>
+        <h1>NEET 2027 Countdown</h1>
+        <p id="exam-date" class="subtext">Fetching latest exam date...</p>
+
+        <div class="timer" id="timer" role="timer" aria-label="Countdown timer">
+          <article class="time-box">
+            <span class="value" id="days">00</span>
+            <span class="label">Days</span>
+          </article>
+          <article class="time-box">
+            <span class="value" id="hours">00</span>
+            <span class="label">Hours</span>
+          </article>
+          <article class="time-box">
+            <span class="value" id="minutes">00</span>
+            <span class="label">Minutes</span>
+          </article>
+          <article class="time-box">
+            <span class="value" id="seconds">00</span>
+            <span class="label">Seconds</span>
+          </article>
+        </div>
+
+        <p id="status" class="status">Loading countdown...</p>
+      </section>
+    </main>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
